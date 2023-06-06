@@ -16,17 +16,14 @@
   }
   
   h2 {
-    font-size: 27px;
+    font-size: 40px;
   }
-  
-  
-  
   
   /* Style qui s'applique au header */
   
   header {
     width: 100%;
-    background-color: #7df177;
+    background-color: #068b18;
     position: relative;
     padding: 2em 0 10em 0;
   }
@@ -45,16 +42,15 @@
     left: 3em;
   }
   
-  
   .header_text h1 {
     width: 61%;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 20px;
   }
-  
+ 
+      /* Pour le soulignage du h1 */
   .header_textSub {
-    /* Pour le soulignage du h1 */
-    background-image: linear-gradient(to right, #8288a2 0%, #8288a2 100%);
+    background-image: linear-gradient(to right, #068b18 0%, #068b18 100%);
     background-repeat: repeat-x;
     background-position: 0 100%;
     background-size: 100% 0.4em;
@@ -83,11 +79,11 @@
   }
   
   .header_img {
-    width: 50%;
+    width: 40%;
   }
   
   .header_img img {
-    width: 100%;
+    width: 90%;
 }
 
 /* Style qui s'applique à la barre de navigation */
@@ -168,41 +164,41 @@ nav {
     background-size: 100% 0.15em;
   }
   
-  /* Section Offre */
+  /* Section A-propos */
   
   . {
-    color: #335b8e;
+    color: #000000;
     padding: 4em 0;
   }
   
-  .offre_haut {
+  .A-propos_haut {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
   
-  .offre_texte {
+  .A-propos_texte {
     padding: 2em 0;
     width: 40%;
   }
   
-  .offre_texte h2 {
+  .A-propos_texte h2 {
     padding: 1em 0;
   }
   
-  .offre p {
-    color: #335b8e;
-    font-weight: 300;
-    font-size: 18px;
+  .A-propos p {
+    color: #068b18;
+    font-weight: 400;
+    font-size: 25px;
   }
   
-  .offre_image {
+  .A-propos_image {
     text-align: center;
   }
   
-  .offre_image img {
-    width: 400px;
-    height: 399px;
+  .A-propos_image img {
+    width: auto;
+    height: 250px;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -211,7 +207,7 @@ nav {
   }
   
   .bouton {
-    background-color: #7582a2;
+    background-color: #068b18;
     width: 325px;
     height: 65px;
     margin: 4em auto;
@@ -227,50 +223,50 @@ nav {
     line-height: 65px;
   }
   
-  .offre_bas {
+  .A-propos_bas {
     text-align: center;
   }
   
-  .offre_bas img {
+  .A-propos_bas img {
     width: 200px;
   }
   
   /* SectionAlunissages */
   
-  .alunissages {
-    background-color: #335b8e;
-    color: #ffffff;
+  .projets {
+    background-color: #068b18;
+    color: #0f0101e3;
     padding: 3em 0;
   }
   
-  .alunissages_container {
+  .projets_container {
     width: 80%;
     margin: 0 auto;
   }
   
-  .alunissages h2 {
+  .Mes.Projets h2 {
     text-align: right;
     padding: 2em 6em 4em 0;
   }
   
-  .trip {
+  .Projet {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2em 0;
   }
   
-  .trip:nth-of-type(2),
-  .trip:nth-of-type(4) {
+  .projets:nth-of-type(2),
+  .projets:nth-of-type(4) {
     flex-direction: row-reverse;
   }
   
-  .trip_image {
+  .projets_image {
     width: 40%;
     text-align: center;
   }
   
-  .trip_image img {
+  .projets_image img {
     width: 400px;
     height: 351px;
     border-radius: 12%;
@@ -281,24 +277,24 @@ nav {
     border: #ffffff solid 5px;
   }
   
-  .trip_texte {
+  .Projets_texte {
     width: 40%;
     margin-left: 2em;
   }
   
-  .trip_texte h3 {
+  .Projet1_texte h3 {
     font-size: 21px;
   }
   
-  .trip_texte p {
+  .projets_texte p {
     width: 80%;
     font-weight: 500;
     font-size: 18px;
     padding: 2em 0;
   }
   
-  .trip_reservation {
-    background-color: #5e8cc7;
+  .lire_plus {
+    background-color: #068b18;
     width: 200px;
     height: 45px;
     color: #ffffff;
